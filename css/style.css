@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+body {
+  padding: 1rem;
+  background-color: #181a1b;
+  color: white;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 500px;
+  margin: 0 auto;
+}
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1.1rem;
+}
+button {
+  margin: 1rem;
+  width: 9.375rem;
+  height: 1.875rem;
+  border-radius: 0.625rem;
+  border: none;
+  background-color: #5d35c6;
+  color: #ffff;
+  cursor: pointer;
+}
+
